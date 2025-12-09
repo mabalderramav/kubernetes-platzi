@@ -1,6 +1,7 @@
 # 11-storage-pv-pvc
 
 ## First, create the directory for hostPath, remember to run this on the minikube node using sudo
+## sudo su - this will give you root access
 ```bash
 minikube ssh
 echo '<h1>Hello from Volume!</h1>' > /mnt/data/index.html
