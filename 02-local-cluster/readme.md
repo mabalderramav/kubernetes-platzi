@@ -46,3 +46,26 @@ kubectl config use-context <context-name>
 ```
 kubectl run hello-cloud --image=gcr.io/google-samples/hello-app:2.0 --restart=Never --port=8080
 ```
+
+## Ver los pods
+
+```
+kubectl get pods
+```
+
+## Minikube dashboard
+```
+minikube dashboard
+```
+
+## Dentener el cluster
+
+```
+minikube stop
+```
+
+## To delete a pod in Kubernetes, use:
+```
+kubectl delete pod <pod-name>
+kubectl delete pod hello-cloud
+```
